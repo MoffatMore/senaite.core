@@ -6,6 +6,7 @@ Changelog
 
 **Added**
 
+- #1259 Added Facscalibur instrument import interface
 - #1244 Added "Body for Sample Invalidation email" field in setup
 - #1231 Add Client ID Column in Batch Listing
 - #1230 Add Client ID Column in Sample Listing
@@ -29,6 +30,7 @@ Changelog
 
 **Changed**
 
+- #873 Generalize the assignment of values into fields for Setup on import
 - #1257 Fix Traceback for MultiSelectionWidgets in View Mode for UIDReferenceFields
 - #1249 Render attachments in report in worksheets too
 - #1243 ID Server Suffix Support for Retested ARs
@@ -102,6 +104,7 @@ Changelog
 
 **Fixed**
 
+- #1277 Traceback in Manage Analyses
 - #1245 Not all clients are shown in clients drop menu for Productivity Reports
 - #1239 Fix and Improve Stickers
 - #1214 Disallow entry of analysis results if the sample is not yet received
